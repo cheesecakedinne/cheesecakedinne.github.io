@@ -190,7 +190,7 @@ footer {
 
 .theLinks {
         position: relative;
-        top: 10%;
+        top: 40px;
         width: 100%;
         margin: auto;
         text-align: center;
@@ -214,7 +214,7 @@ footer {
         z-index: 10;
         overflow-x: hidden;
         text-overflow: clip;
-        background-color: rgba(214, 219, 210, 0.6);
+        background-color: rgba(214, 219, 210, 0.9);
         /**I added the opacity to the background color instead**/
         transition: 1s;
     }
