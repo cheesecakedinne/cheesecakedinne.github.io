@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+    
+<title> Coding </title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+    function call()
+    {document.getElementById('navig').style.width='100%';
+    document.getElementById('navig').style.fontSize='25pt';}
+    
+    function bye(x,y)
+    {document.getElementById(x).style.width=y;}
+        
+    function bye2()
+    {a=document.getElementById('navig').style.width;
+        
+        if (a=='100%') {document.getElementById('navig').style.width='0%';}
+    }
+    
+</script>
+    
+    <style>
+        li {
+            
+        }
+    </style>
+    
+</head>
+    
+<body onscroll="bye('navig','0%')">
+    <header>
+        <span style="text-align: center" class="head">
+        <h2 id="top">So What About This Am I Proud Of?</h2>
+            <h1>My Fully-Coded Site</h1>
+        </span>
+    </header>
+    
+    
+     <div id="navig">
+        <a href="javascript://" id="closing" onclick="bye('navig','0%')" style="position: absolute; right: 40pt">Close</a>
+        
+        <div class="theLinks">
+            
+        <a target="_blank" href="index.html">Landing Page</a>
+            
+         <a target=" _blank" href="tech.html">Technology &amp; the Pandemic</a>
+            
+         <a target="_blank" href="bio.html">About Me, Casper</a>
+            
+        <a target="_blank" href="bears.html">The Bear</a>
+            
+        <a target="_blank" href="proud.html">What Am I Proud Of?</a>
+            
+        <a target="" href="#top" id="up">Back to Top</a>
+            
+        </div>
+        
+    </div>
+    <nav>
+    <div>
+        <h3><span onclick="call()">MENU</span></h3>
+    </div>
+    </nav>
+    
+    
+    <main style="padding: 20px;">
+        <h2 class="tit">This entire site was made in Brackets - no Microsoft Word, notebooks, or whatever else involved.</h2>
+        
+        <p style="text-indent: 0pt;">CSCE 102 is a class which focuses on HTML, CSS, &amp; Javascript. For our final project we were given some specifications to follow, such as:</p><br>
+        
+        <li>Every page has to include one image.</li>
+        <li>Every page is to link to external CSS.</li>
+        <li>We were told specifications for how the navigation should operate.</li>
+        <li>Every page should follow the block layout.</li>
+        <br>
+        
+        <h2 class="tit">So what did <em style="font-family: kiwi">I</em> do in addition that I feel I can be proud of?</h2>
+        
+        
+        
+        <h4 class="tit">Throughout the Entire Site:</h4>
+        <p>This project was to make a simple 3-page site with a navigation. We were not told to make a landing site or a page telling what we did. I also tried to spruce up the visuals of the site beyond what was asked for, so that I could use this in a portfolio.</p><p>I tried to create a &#40;playful&#41; color scheme - which I tried to use intentionally. Obviously the gunmetal is the background, and the marigold is standard text. Fire opal was for accents. Then I've gone and used ivory for the header and footer background colors, and timberwolf for body headings. I wanted to be very intentional about my layout &amp; formatting, and I tried to keep it as consitant as possible - where appropriate. Some of this included the color scheme, learning how to create and implement a custom scrollbar using webkits, custom, open-source fonts &#40;Kiwi for headings and Artifakt for regular text&#41;, and a 300+ line external CSS document.</p>
+        <p>I also tried to clean up what I wasn't able to customize from the project specifications. One way I did this was I figured out how to use Javascript to make the navigation disappear when you scroll. I also figured out how to use sticky positioning, so you always have access to the menu button. I also tried to make it look more natural when you adjust your screen size - things resize &amp; adjust. The biggest thing I did, was that I managed to research and upload my website!! Woohoo!</p> 
+        <h5>Also - the scrolling slideshow on the Bears page? All me, baby.</h5>
+        
+        <div class="img_div" style="width: 660px; margin: 15px auto">
+    <img style="width: 650px;" src="images/palette.PNG" alt="website palette">
+    <h5 class="label">This site's palette.</h5>
+    </div>
+        
+        <h4 class="tit">What I Would Improve:</h4>
+        <p>Admittedly, I still don't really know much about optimizing for mobile, so that's something I would like to learn more about. Also, I spent hours trying to figure out how to connect my Github Repository to a site like Wordpress or Tumblr, and I still don't know. I also would rather my navigation come in from the side. I also don't like the way the text adjusts and tries to wrap itself within the navigation while it changes size.</p>
+    </main>
+    
+     
+    
+    <footer>
+    <h3 class="tit">Site by Casper Skinner</h3>
+    </footer>
+</body>
+    
+</html>

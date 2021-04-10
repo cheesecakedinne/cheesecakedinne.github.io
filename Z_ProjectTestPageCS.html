@@ -6,7 +6,7 @@
 
 <meta charset="utf-8">
     
-    <link rel="stylesheet" href="AA_Final_CS.css">
+    <link rel="stylesheet" href="style.css">
     
 <title> Navigation </title>
     
@@ -31,31 +31,6 @@
 </script>
     
 <style>
-    .theLinks {
-        position: relative;
-        top: 35%;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .theLinks a {
-        display: block;
-        font-size: 25pt;
-        font-weight: bold;
-    }
-    
-    #navig {
-        position: fixed;
-        width: 0;
-        height: 60%;
-        z-index: 1;
-        overflow-x: hidden;
-        overflow: hidden;
-        background-color: rgba(214, 219, 210, 0.6);
-        /**I added the opacity to the background color instead**/
-        transition: 1s;
-    }
-    
     
     
 </style>
@@ -64,16 +39,20 @@
     
 <body onscroll="bye('navig','0%')">
     
-     <div id="navig">
+    <div id="navig">
         <a href="javascript://" id="closing" onclick="bye('navig','0%')" style="position: absolute; right: 40pt">Close</a>
         
         <div class="theLinks">
             
-         <a target=" _blank" href="AA_page1_CS.html">Technology &amp; the Pandemic</a>
+        <a target="_blank" href="index.html">Landing Page</a>
             
-         <a target="_blank" href="A_page2_CS.html">About Me, Casper</a>
+         <a target=" _blank" href="tech.html">Technology &amp; the Pandemic</a>
             
-        <a target="_blank" href="A_page3_CS.html">The Bear</a>
+         <a target="_blank" href="bio.html">About Me, Casper</a>
+            
+        <a target="_blank" href="bears.html">The Bear</a>
+            
+        <a target="_blank" href="proud.html">What Am I Proud Of?</a>
             
         <a target="" href="#top" id="up">Back to Top</a>
             

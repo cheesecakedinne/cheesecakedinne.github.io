@@ -95,6 +95,8 @@ nav {
     z-index: 1;
 }
 
+
+
 main {}
 
     div {
@@ -115,7 +117,7 @@ main {}
         }
 
     article {
-        padding: 1% 25%;
+        padding: 1% 10%;
         
         }
 
@@ -188,12 +190,13 @@ footer {
 
 .theLinks {
         position: relative;
-        top: 35%;
+        top: 10%;
         width: 100%;
         margin: auto;
         text-align: center;
         font-family: kiwi;
         line-height: 1.5;
+        text-overflow: clip;
     }
     
     .theLinks a {
@@ -207,9 +210,10 @@ footer {
     #navig {
         position: fixed;
         width: 0;
-        height: 60%;
-        z-index: 1;
+        height: 40%;
+        z-index: 10;
         overflow-x: hidden;
+        text-overflow: clip;
         background-color: rgba(214, 219, 210, 0.6);
         /**I added the opacity to the background color instead**/
         transition: 1s;
