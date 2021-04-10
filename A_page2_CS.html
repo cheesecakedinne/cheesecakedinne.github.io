@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+    
+<title> About Me </title>
+    
+<link rel="stylesheet" href="AA_Final_CS.css">
+    
+    <style>    
+        header, footer {
+            width: 100%;
+            margin: 0pt;
+            padding: 0pt;
+        }
+        
+        #face {
+            width: 100%;
+            max-width: 250px;
+        }
+        
+        img {
+            width: 200px;
+            padding: 0px;
+            
+        }
+        
+        p {
+            padding: 5px; 
+        }
+        
+        table {
+            max-width: 98%;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        
+        
+        
+        footer {
+            position: static;
+            bottom: 0;
+        }
+        
+        
+            
+    </style>
+    
+    <script>
+    function call()
+    {document.getElementById('navig').style.width='100%';
+    document.getElementById('navig').style.fontSize='25pt';}
+    
+    function bye(x,y)
+    {document.getElementById(x).style.width=y;}
+        
+    function bye2()
+    {a=document.getElementById('navig').style.width;
+        
+        if (a=='100%') {document.getElementById('navig').style.width='0%';}
+     
+    }
+    
+</script>
+    
+</head>
+    
+<body onscroll="bye('navig','0%')">
+    
+    <header>
+        <span style="text-align: center" class="head">
+        <h2 id="top">About Me:</h2>
+            <h1>Casper Skinner</h1>
+        </span>
+    </header>
+    
+    
+    <div id="navig">
+        <a href="javascript://" id="closing" onclick="bye('navig','0%')" style="position: absolute; right: 40pt">Close</a>
+        
+        <div class="theLinks">
+            
+         <a target="_blank" href="index.html">Landing Page</a>
+            
+         <a target=" _blank" href="AA_page1_CS.html">Technology &amp; the Pandemic</a>
+            
+         <a target="_blank" href="A_page2_CS.html">About Me, Casper</a>
+            
+        <a target="_blank" href="A_page3_CS.html">The Bear</a>
+            
+        <a target="" href="#top" id="up">Back to Top</a>
+            
+        </div>
+        
+    </div>
+    <nav>
+    <div>
+        <h3><span onclick="call()">MENU</span></h3>
+    </div>
+    </nav>
+    
+    <main>
+        
+        <table id="tab">
+            <tr>
+                <td><img src="images/me.jpg" alt="me" id="face"></td>
+                <td><p id="abt">My name is Casper. I am 21 years old &amp; I use they/them pronouns. I love my girlfriend, I love dogs, I like the mountains, I love my family, and I play the banjo. My favorite animals are bears and my favorite color is yellow. In school, I'm studying Geography &amp; Media Arts. I used to study civil engineering, but it stopped interesting me. I'm not really sure what I want to do with my life.</p></td>
+                
+                
+            </tr>
+            <tr>
+                <td><h5 class="label">A picture of me</h5></td>
+                <td></td>
+                
+            </tr>
+            
+           
+        </table>
+                <hr>
+        <table class="bod">
+             <tr>
+                <td><h3 class="tit">Banjo</h3><p>I started playing the banjo when I was 16 or 17 years old. I had tried to play other intruments up until that point, but I struggled to keep up with them. I decided to learn to play the banjo because of it's history. The banjo has a very fraught history, with it being played both among the oppressed <em>and</em> the privileged. Over time, I feel many people associate the banjo with <em>"good ol' boys,"</em> but I feel that it is a an instrument largely of the unheard.</p></td>
+                <td> <img src="images/banjo.jpg" alt="me"></td>
+            </tr>
+        
+        </table>
+        
+        <table class="bod">
+             <tr>
+                <td><img src="images/hike.jpg" alt="during a hike"> </td>
+                <td><h3 class="tit">The Outdoors</h3><p>One of the reasons I am so fond of the banjo, is because I spend a lot of time in the areas around <em>Asheville, NC.</em> One of the most noteable things to do in Asheville is to hike. I have been up to Mt. Mitchell a few times, but it's rather cold and crowded. Last fall, about an hour after this picture was taken, my girlfriend, my roommate, and I went to Graveyard Fields. The leaves were changing and <em>it was beautiful</em>. My sister lives near Asheville, so it's very accessable to me. When it's not <em>scorching hot</em>, I really enjoy being outside.</p></td>
+            </tr>
+        </table>  
+            <table class="bod">
+             <tr>
+                <td><h3 class="tit">Hammockin'</h3><p>I've recently been spending more time in my hammock. It's so lovely to just lay in the outdoors with a blanket and some coffee, swaying in the wind. My friends found this one really nice spot on campus that's almost always empty. We often go out and put our hammocks up and listen to <em>jazz</em> or <em>lofi</em>. The hammocks are really nice for gathering outdoors and socially distanced, and we can just chill.</p></td>
+                <td> <img src="images/hammock.jpg" alt="my hammock"> </td>
+            </tr>
+        
+        </table>
+        
+        <table id="pics">
+            <tr>
+                <td><img src="images/raza.jpg" alt="my mom's dog & me" class="peep"> </td>
+            
+                <td><img src="images/sarah.jpeg" alt="my sister, my youngest niece, and me" class="peep"></td>
+            
+                <td><img src="images/parents.jpg" alt="my parents and me" class="peep"></td>
+            </tr>
+        
+        </table>
+        
+    </main>
+    
+    
+    <footer>
+        <h4 class="tit">All images are mine.</h4>
+    </footer>
+</body>
+    
+</html>

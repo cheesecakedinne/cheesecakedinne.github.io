@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+    
+<title> Welcome </title>
+    
+    <link rel="stylesheet" href="AA_Final_CS.css">
+    
+     <script>
+    function call()
+    {document.getElementById('navig').style.width='100%';
+    document.getElementById('navig').style.fontSize='25pt';}
+    
+    function bye(x,y)
+    {document.getElementById(x).style.width=y;}
+        
+    function bye2()
+    {a=document.getElementById('navig').style.width;
+        
+        if (a=='100%') {document.getElementById('navig').style.width='0%';}
+    }
+    
+</script>
+    
+    <style></style>
+    
+</head>
+    
+<body onscroll="bye('navig','0%')">
+    <header>
+        <span style="text-align: center" class="head">
+    <h1 id="top">Welcome</h1>
+    <h2>This is my first, fully coded site.</h2>
+        </span>
+    </header>
+     
+    <div id="navig">
+        <a href="javascript://" id="closing" onclick="bye('navig','0%')" style="position: absolute; right: 40pt">Close</a>
+        
+        <div class="theLinks">
+            
+         <a target="_blank" href="index.html">Landing Page</a>
+            
+         <a target=" _blank" href="AA_page1_CS.html">Technology &amp; the Pandemic</a>
+            
+         <a target="_blank" href="A_page2_CS.html">About Me, Casper</a>
+            
+        <a target="_blank" href="A_page3_CS.html">The Bear</a>
+            
+        <a target="" href="#top" id="up">Back to Top</a>
+            
+        </div>
+        
+    </div>
+    <nav>
+    <div>
+        <h3><span onclick="call()">MENU</span></h3>
+    </div>
+    </nav>
+    
+    
+    <main>
+        
+    <h1 style="text-align: center; font-family: kiwi" class="tit">My name is Casper!</h1>
+        <article>
+    <h3>I'm 21 &amp; I use they/them pronouns. My favorite colors are blue &amp; yellow, and my favorite animals are bears.</h3>
+            <div class="img_div" style="width: 360px; margin: 20px auto 20px auto;">
+    <img style="width: 350px;" src="images/hike.jpg" alt="Casper">
+    <h5 class="label">Me during a hike!</h5>
+    </div>
+            
+            
+            <p>This site is my final project for CompSci 102, taught by Catherine Matthews at the University of South Carolina. I've done other stuff in the course too, but this is the best I've done &amp; I'm also trying to teach myself how to publish a site.</p>
+            
+        
+            <div class="tit" style="font-family: kiwi; text-align: center">
+            <h2>Pages:</h2>
+                <a target=" _blank" href="AA_page1_CS.html">Technology &amp; the Pandemic</a><br>
+            
+                <a target="_blank" href="A_page2_CS.html">About Me, Casper</a><br>
+            
+                <a target="_blank" href="A_page3_CS.html">The Bear</a>
+            </div>
+            
+            
+        </article>
+    </main>
+    
+    
+    <footer>
+    <div class="img_div" style=" margin-top: 20px; margin-bottom: 20px; width: 500px">
+                <a target="_blank" href="https://casskinner.com"><h2 class="tit" style="color: rgba(44, 54, 63)">Check Out My Other Site!</h2></a>
+                </div>
+    </footer>
+</body>
+    
+</html>

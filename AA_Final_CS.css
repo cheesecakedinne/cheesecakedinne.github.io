@@ -1,0 +1,374 @@
+/**
+--COLORS RGBs--
+Black:
+44, 54, 63
+
+Salmon:
+231, 90, 124)
+
+Yellow:
+240, 162, 2
+
+White:
+242, 245, 234
+
+Gray:
+214, 219, 210
+
+**/
+
+@font-face {
+      font-family: kiwi;
+      src: url(font/KiwiMaru-Medium.ttf);
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Regular.ttf);
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Bold.ttf);
+      font-weight: bold;
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Bold_Italic);
+      font-style: oblique;
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Italic.ttf);
+      font-style: italic;
+    }
+
+* {margin: 0; padding: 0px; margin-left: auto; margin-right: auto}
+
+body {
+    background-color: rgba(44, 54, 63);
+    color: rgba(240, 162, 2);
+    font-family: artifakt;
+    }
+
+    a {
+        color: rgba(231, 90, 124)
+    }
+
+h2, h3, h4, h5, h6 {
+    font-family: kiwi;
+    line-height: 2;
+    }
+        
+        h1 {
+                font-size: 42pt;
+                padding: 5pt 100pt;
+                text-align: center
+                font-family: kiwi;
+        }
+
+        h3 {
+                color: rgba(242, 245, 234)
+        }
+        
+header {
+    background-color: rgba(242, 245, 234);
+    padding: 10pt;
+    color: rgba(44, 54, 63);
+    min-height: 100px;
+    }
+
+    span {
+        
+    }
+
+nav {
+    text-align: center;
+    background-color: rgba(231, 90, 124,.6);
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 100pt;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+main {}
+
+    div {
+        
+        }
+        
+        .label {
+    font-size: 10px;
+    color: rgba(44, 54, 63);
+            text-align: center;
+}
+        
+        
+
+        img {
+        border-radius: 10pt;
+        margin: 3px;
+        }
+
+    article {
+        padding: 1% 25%;
+        
+        }
+
+        p {
+            line-height: 1.8;
+            text-indent: 15pt;
+            text-align: justify;
+            }
+
+        em {
+            font-family: artifakt, sans-serif;
+            font-style: italic;
+            color: rgba(231, 90, 124)
+        }
+
+li {
+    list-style-position: outside;
+    text-indent: 20px;
+}
+
+footer {
+    background-color: rgba(242, 245, 234);
+    color: rgba(44, 54, 63);
+    padding: 5pt 10pt 10pt 10pt;
+    min-height: 50px;
+   margin-top: 15px;
+    }
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(231, 90, 124));
+}
+
+
+.tit {
+    text-align: center;
+    padding: 0pt 0pt 0pt 0pt;
+    text-decoration: underline;
+    text-decoration-color: rgba(231, 90, 124, .3);
+    color: rgba(214, 219, 210);
+}
+
+.head {
+    color: rgba(44, 54, 63, 1);
+    font-family: kiwi;
+    text-align: left;
+}
+
+.img_div {
+    text-align: center;
+    border: 3px solid rgba(240,162,2);
+    border-radius: 10pt;
+    background-color: rgba(240,162,2);
+    align-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_div {
+    text-align: justify;
+    border: 3px solid rgba(240, 162, 2);
+    background-color: rgba(240, 162, 2);
+    align-content: center;
+    margin-top: 50px;
+    color: rgba(44, 54, 63)
+}
+
+
+.theLinks {
+        position: relative;
+        top: 35%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-family: kiwi;
+        line-height: 1.5;
+    }
+    
+    .theLinks a {
+        display: block;
+        font-size: 25pt;
+        font-weight: bold;
+        color: rgba(44, 54, 63);
+        text-decoration-color: rgba(231, 90, 124),.5);
+    }
+    
+    #navig {
+        position: fixed;
+        width: 0;
+        height: 60%;
+        z-index: 1;
+        overflow-x: hidden;
+        background-color: rgba(214, 219, 210, 0.6);
+        /**I added the opacity to the background color instead**/
+        transition: 1s;
+    }
+    
+#tab {
+            border: 3px solid rgba(240, 162, 2);
+            border-radius: 10pt;
+            background-color: rgba(240, 162, 2);
+            color: rgba(44, 54, 63);
+            height: 350px;
+        }
+        
+        hr {
+            border-top: 3px solid rgba(214, 219, 210);
+            margin-bottom: 20px;
+            border-radius: 10pt;
+            width: 150px;
+            margin: auto;
+        }
+        
+        .bod {
+            width: 98%;
+            max-width: 900px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+        
+        #pics {
+            width: 98%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .peep {
+            width: 500px;
+            max-width: 98%
+        }
+
+#abt {
+            font-size: 100%;
+            max-width: 250px;
+        }
+
+#up {
+    font-size: 10pt;
+}
+
+#closing {
+    font-family: kiwi;
+}
+
+#song_box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: justify;
+    height: 400px;
+    width: 620px;
+    position: relative;
+    min-width: 615px;
+}
+
+
+
+.s_s {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+}
+.song  {
+    border-radius: 10pt;
+    margin-right: 10px;
+    z-index: -1;
+}
+
+.s_text {
+    position: absolute;
+    width: 300px;
+    left: 310px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    text-overflow: clip;
+    overflow: scroll;
+}
+
+blockquote {
+    text-align: left;
+    font-style: oblique;
+    font-family: artifakt;
+    font-style: normal;
+    color: rgba(231, 90, 124,1);
+    opacity: 1;
+    padding-left: 10px;
+}
+
+#beartime {
+  height: 250px;
+  max-width: 5000px;
+  margin: 0;
+    margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0,0,0)
+}
+
+#beartime_pics {
+  height: 250px;
+  width: 5000px;
+  background: url(images/BearScroll.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+  animation: bearscroll 10s linear infinite;
+  animation-play-state: paused;
+}
+
+#beartime_pics:hover {
+  height: 250px;
+  width: 5000px;
+  background: url(images/BearScroll.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+  animation: bearscroll 10s linear infinite;
+  animation-play-state: running;
+}
+
+@keyframes bearscroll {
+    0% {left: 0;}
+    100% {left: -2500px;}
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  margin-left: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(44, 54, 63);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(240, 162, 2);
+}
+
+::-webkit-scrollbar-corner {
+   background: rgba(44, 54, 63) 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(231, 90, 124);
+}

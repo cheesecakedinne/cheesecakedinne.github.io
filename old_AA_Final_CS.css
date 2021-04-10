@@ -1,0 +1,136 @@
+@font-face {
+      font-family: kiwi;
+      src: url(font/KiwiMaru-Medium.ttf);
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Regular.ttf);
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Bold.ttf);
+      font-weight: bold;
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Bold_Italic);
+      font-style: oblique;
+    }
+        
+@font-face {
+      font-family: artifakt;
+      src: url(font/Artifakt_Element_Italic.ttf);
+      font-style: italic;
+    }
+        
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    color: rgba(44, 54, 63,1);
+}
+        
+main {
+    min-width: 300px;
+    text-align: justify;
+    color: rgba(44, 54, 63,1);
+    }
+        
+body {
+    background-color: rgba(242, 245, 234,1);
+    color: rgba(44, 54, 63,1);
+    margin: 20pt;
+    font-family: artifakt;
+    }
+        
+header, nav, article, footer {
+            
+    }
+        
+h1, h2, h3, h4, h5, h6 {
+    font-family: kiwi;
+    line-height: 2;
+    color: rgba(242, 245, 234,1);
+    }
+        
+h1 {
+    line-height: 1.2;
+    }
+        
+header, footer {
+    background-size: 100% 10%;
+    background-color: rgba(231, 90, 124,1) ;
+    color: rgba(214, 219, 210,1);
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px 10px 10px;
+    position: static;
+    }
+        
+header {
+    text-align: center;
+    top: 0px;
+    }
+        
+footer {
+    bottom: 0px;
+    }
+        
+nav {
+    background-size: contain;
+    font-family: artifakt;
+    font-style: oblique;
+    }
+        
+article  {
+    background-size: contain;
+    font-family: artifakt;
+    margin: 10px;
+    }
+
+div {
+    text-align: center;
+    }
+
+img {
+    width: 500px;
+    margin: 10px;
+    border-radius: 10pt;
+    border: 10px solid rgba(214, 219, 210,1);
+    }
+
+span {
+}
+        
+a {
+    color: rgba(240, 162, 2, 1);
+    text-decoration: underline;
+    }
+        
+.source {
+    font-size: 8pt;
+            
+    /**text-shadow: -.1px -.1px rgba(214, 219, 210,1), .1px -.1px rgba(214, 219, 210,1), -.1px .1px rgba(214, 219, 210,1), .1px .1px rgba(214, 219, 210,1);**/
+    line-height: 2;
+    }
+        
+mark {
+    background-color: rgba(214, 219, 210,.2);
+    color: rgba(240, 162, 2,1);
+    padding: -2px 4px -2px 4px;
+    }
+
+.title {
+    color: rgba(44, 54, 63,1)
+    }
+em {
+    color: rgba(240, 162, 2, 1);
+    font-family: artifakt;
+    font-style: italic;
+    }
+p{
+    text-indent: 50px;
+    text-align: justify;
+}
