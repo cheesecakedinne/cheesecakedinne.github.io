@@ -204,7 +204,7 @@ footer {
         font-size: 25pt;
         font-weight: bold;
         color: rgba(44, 54, 63);
-        text-decoration-color: rgba(231, 90, 124),.5);
+        text-decoration-color: rgba(231, 90, 124,.5);
     }
     
     #navig {
@@ -315,7 +315,7 @@ blockquote {
 #beartime {
   height: 250px;
   max-width: 5000px;
-  margin: 0;
+  margin: 10;
     margin-top: 15px;
   position: relative;
   overflow: hidden;
